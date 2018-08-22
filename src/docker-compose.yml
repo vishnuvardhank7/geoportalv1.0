@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  geoportal:
+    build: geoportal
+    ports: 
+      - "8080:8080"
+    hostname: geoportal
+    environment:
+      - es_cluster=es-geoportal
+      - es_node=elasticsearch
+    links: 
+      - elasticsearch:elasticsearch
+    networks:
+      - default
+      
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:5.6.2
+    container_name: elasticsearch
+    hostname: elasticsearch
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - esdata1:/usr/share/elasticsearch/data
+    environment:
+      - "ES_JAVA_OPTS=-Xms750m -Xmx750m"
+      - bootstrap.memory_lock=true
+      - discovery.type=single-node
+      - cluster.name=es-geoportal
+      - xpack.security.enabled=false
+    networks:
+      - default
+
+networks:
+  default:
+    external:
+      name: geoportal
+
+volumes:
+  esdata1:
+    driver: local
