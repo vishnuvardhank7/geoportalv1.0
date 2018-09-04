@@ -4,7 +4,7 @@
  
 Clone the repository to your local drive. In order to build the containers and run them, use the following commands:
 ```bash
-$ git clone https://github.com/vishnuvardhank7/Demo.git
+$ git clone https://github.com/vishnuvardhank7/geoportalv1.0.git
 $ cd Demo/src
 $ docker network create geoportal
 $ docker-compose build
