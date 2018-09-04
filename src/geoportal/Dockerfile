@@ -6,6 +6,9 @@ MAINTAINER "Vishnuvardhan Kesavan"
 
 ADD geoportal.war /usr/local/tomcat/webapps/
 <<<<<<< HEAD
+<<<<<<< HEAD
 ADD arcgis_js_api /usr/local/tomcat/webapps/
+=======
+>>>>>>> 930695606920dbf20b2caca52aa453d31de46072
 =======
 >>>>>>> 930695606920dbf20b2caca52aa453d31de46072
