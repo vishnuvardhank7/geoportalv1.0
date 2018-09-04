@@ -1,0 +1,15 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.17/esri/copyright.txt for details.
+//>>built
+require({
+	cache: {
+		"url:esri/dijit/metadata/types/iso/gmd/metadataEntity/templates/Classifi_Dataclassification.html": '\x3cdiv data-dojo-attach-point\x3d"containerNode"\x3e\r\n\r\n  \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/iso/CodeListElement"\r\n  data-dojo-props\x3d"target:\'gmd:classify_dataclassify\'"\x3e\r\n  \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/iso/CodeSpaceAttribute"\x3e\x3c/div\x3e\r\n  \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/iso/CodeListAttribute"\r\n    data-dojo-props\x3d"value:\'${codeListPrefix}classify_dataclassify\'"\x3e\x3c/div\x3e\r\n\r\n  \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/iso/CodeListValueAttribute"\x3e\r\n    \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/InputSelectOne"\x3e\r\n  \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Options"\x3e\r\n  \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n  data-dojo-props\x3d"label:\'\',value:\'\',selected:true"\x3e\x3c/div\x3e\r\n  \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n  data-dojo-props\x3d"label:\'${i18nIso.classifi_dataclassification.publicopen}\',value:\'publicopen\'"\x3e\x3c/div\x3e    \r\n  \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n  data-dojo-props\x3d"label:\'${i18nIso.classifi_dataclassification.internal}\',value:\'internal\'"\x3e\x3c/div\x3e  \r\n  \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n  data-dojo-props\x3d"label:\'${i18nIso.classifi_dataclassification.confidential}\',value:\'confidential\'"\x3e\x3c/div\x3e  \r\n  \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n  data-dojo-props\x3d"label:\'${i18nIso.classifi_dataclassification.thirdparty}\',value:\'thirdparty\'"\x3e\x3c/div\x3e  \r\n  \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n  data-dojo-props\x3d"label:\'${i18nIso.classifi_dataclassification.product}\',value:\'product\'"\x3e\x3c/div\x3e  \r\n  \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n  data-dojo-props\x3d"label:\'${i18nIso.classifi_dataclassification.customer}\',value:\'customer\'"\x3e\x3c/div\x3e\r\n                        \x3c/div\x3e\r\n    \x3c/div\x3e\r\n  \x3c/div\x3e\r\n\r\n  \x3c/div\x3e\r\n\x3c/div\x3e'
+	}
+});
+define("esri/dijit/metadata/types/iso/gmd/metadataEntity/Classifi_Dataclassification", "dojo/_base/declare dojo/_base/lang dojo/has ../../../../base/Descriptor ../../../../form/InputSelectOne ../../../../form/Options ../../../../form/Option ../../../../form/iso/CodeListAttribute ../../../../form/iso/CodeListValueAttribute ../../../../form/iso/CodeListElement ../../../../form/iso/CodeSpaceAttribute dojo/text!./templates/Classifi_Dataclassification.html ../../../../../../kernel".split(" "), function(a, b, c, d, g, h, k, l, m, n, p, e, f) {
+	a = a(d, {
+		templateString: e
+	});
+	c("extend-esri") && b.setObject("dijit.metadata.types.iso.gmd.metadataEntity.Classifi_Dataclassification", a, f);
+	return a
+});

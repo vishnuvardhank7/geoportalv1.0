@@ -13,7 +13,7 @@ $ docker-compose up
 
 ## Run the applications
 
-* Connect to http://localhost:8080/geoportal to see the geoportal in action. 
+* Connect to http://192.168.99.100:8080/geoportal to see the geoportal in action. 
 
 ## Requirements
 

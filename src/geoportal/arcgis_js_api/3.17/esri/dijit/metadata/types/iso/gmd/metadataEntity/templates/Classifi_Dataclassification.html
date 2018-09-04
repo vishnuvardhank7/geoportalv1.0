@@ -1,0 +1,31 @@
+<div data-dojo-attach-point="containerNode">
+  <div data-dojo-type="esri/dijit/metadata/form/iso/CodeListElement"
+    data-dojo-props="target:'gmd:classify_dataclassify'">
+
+    <div data-dojo-type="esri/dijit/metadata/form/iso/CodeSpaceAttribute"></div>
+    <div data-dojo-type="esri/dijit/metadata/form/iso/CodeListAttribute"
+      data-dojo-props="value:'${codeListPrefix}classify_dataclassify'"></div>
+
+    <div data-dojo-type="esri/dijit/metadata/form/iso/CodeListValueAttribute">
+      <div data-dojo-type="esri/dijit/metadata/form/InputSelectOne">
+        <div data-dojo-type="esri/dijit/metadata/form/Options">
+          <div data-dojo-type="esri/dijit/metadata/form/Option"
+            data-dojo-props="label:'',value:'',selected:true"></div>
+          <div data-dojo-type="esri/dijit/metadata/form/Option"
+            data-dojo-props="label:'${i18nIso.classifi_dataclassification.publicopen}',value:'publicopen'"></div>      
+          <div data-dojo-type="esri/dijit/metadata/form/Option"
+            data-dojo-props="label:'${i18nIso.classifi_dataclassification.internal}',value:'internal'"></div>  
+          <div data-dojo-type="esri/dijit/metadata/form/Option"
+            data-dojo-props="label:'${i18nIso.classifi_dataclassification.confidential}',value:'confidential'"></div>  
+          <div data-dojo-type="esri/dijit/metadata/form/Option"
+            data-dojo-props="label:'${i18nIso.classifi_dataclassification.thirdparty}',value:'thirdparty'"></div>  
+          <div data-dojo-type="esri/dijit/metadata/form/Option"
+            data-dojo-props="label:'${i18nIso.classifi_dataclassification.product}',value:'product'"></div>  
+          <div data-dojo-type="esri/dijit/metadata/form/Option"
+            data-dojo-props="label:'${i18nIso.classifi_dataclassification.customer}',value:'customer'"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

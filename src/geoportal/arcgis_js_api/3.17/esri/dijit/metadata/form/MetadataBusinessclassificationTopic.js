@@ -1,0 +1,20 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.17/esri/copyright.txt for details.
+//>>built
+require({
+	cache: {
+		"url:esri/dijit/metadata/form/templates/MetadataBusinessclassificationTopic.html": '\x3cdiv data-dojo-attach-point\x3d"containerNode"\x3e\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.aeroauthority}\',\r\n value:\'aeroauthority\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.airport}\',\r\n value:\'airport\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.comms}\',\r\n value:\'comms\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.construction}\',\r\n value:\'construction\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.deicing}\',\r\n value:\'deicing\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.landing}\',\r\n value:\'landing\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.lighting}\',\r\n value:\'lighting\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.minima}\',\r\n value:\'minima\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.noise}\',\r\n value:\'noise\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.parking}\',\r\n value:\'parking\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.surface}\',\r\n value:\'surface\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.taxiway}\',\r\n value:\'taxiway\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.guidance}\',\r\n value:\'guidance\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.hotspot}\',\r\n value:\'hotspot\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.runway}\',\r\n value:\'runway\'"\x3e\x3c/div\x3e\r\n\r\n           \x3cdiv data-dojo-type\x3d"esri/dijit/metadata/form/Option"\r\n    data-dojo-props\x3d"label:\'${i18nIso.classifi_businessobjest.smartnotes}\',\r\n value:\'smartnotes\'"\x3e\x3c/div\x3e\r\n\r\n                        \x3c/div\x3e'
+	}
+});
+define("esri/dijit/metadata/form/MetadataBusinessclassificationTopic", "dojo/_base/declare dojo/_base/lang dojo/has ./Options dojo/text!./templates/MetadataBusinessclassificationTopic.html dojo/i18n!../nls/i18nIso ../../../kernel".split(" "), function(a, b, c, d, e, f, g) {
+	a = a([d], {
+		i18nIso: f,
+		templateString: e,
+		_escapeSingleQuotes: !0,
+		postCreate: function() {
+			this.inherited(arguments)
+		}
+	});
+	c("extend-esri") && b.setObject("dijit.metadata.form.MetadataBusinessclassificationTopic", a, g);
+	return a
+});
